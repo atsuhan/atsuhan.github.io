@@ -1,12 +1,12 @@
 $font-primary: 'Source Sans Pro', Arial, sans-serif;
 
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
 $brand-primary: #17e7a4 !default;
-$brand-secondary: #3f95ea !default; 
+$brand-secondary: #3f95ea !default;
 
 
 
@@ -47,16 +47,16 @@ $form-group-margin-bottom:       30px !default;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -71,7 +71,7 @@ $form-group-margin-bottom:       30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -83,10 +83,10 @@ $form-group-margin-bottom:       30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -95,7 +95,7 @@ $form-group-margin-bottom:       30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -119,7 +119,7 @@ body {
 		background-position: center center;
 		background-repeat: no-repeat;
 	}
-	
+
 }
 a {
 	color: $brand-primary;
@@ -466,11 +466,11 @@ figure {
 	padding-bottom: 4em;
 	@media screen and (max-width: $screen-sm ) {
 		padding-bottom: 1em;
-	}	
+	}
 }
 .row-bottom-padded-sm {
 	padding-bottom: 1em;
 	@media screen and (max-width: $screen-sm ) {
 		padding-bottom: 1em;
-	}	
+	}
 }
