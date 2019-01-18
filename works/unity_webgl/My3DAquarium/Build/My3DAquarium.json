@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "My3DAquarium_ForUnity",
+"dataUrl": "My3DAquarium.data.unityweb",
+"wasmCodeUrl": "My3DAquarium.wasm.code.unityweb",
+"wasmFrameworkUrl": "My3DAquarium.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
