@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!-- meta-->
+    <title>WebAR | atsuhan-web-playground</title>
+    <meta name="description">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <!-- smartphone meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+    <!-- ogp-->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WebAR | atsuhan-web-playground">
+    <meta property="og:site_name" content="atsuhan-web-playground">
+    <meta property="og:description" content="atsuhan-web-playground">
+    <meta property="og:locale" content="ja_JP">
+    <!-- twitter card-->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="WebAR | atsuhan-web-playground">
+    <meta property="twitter:description" content="atsuhan-web-playground">
+    <!-- stylesheet-->
+    <link rel="stylesheet" href="/webar/stayhome/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <canvas id="camerafeed"></canvas>
+      <div class="videos">
+        <video class="videos__takagi" loop crossOrigin="anonymous" playsinline style="display:none">
+          <source src="/videos/StayHomeJoymanTakagi.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+        </video>
+        <video class="videos__hoshino" loop crossOrigin="anonymous" playsinline style="display:none">
+          <source src="/videos/StayHomeHoshino.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <!-- javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="//cdn.8thwall.com/web/xrextras/xrextras.js"></script>
+    <script async src="//apps.8thwall.com/xrweb?appKey=meyl2zvMt7tpezD8pGjCw5t7VJw0NtG2ErmC6aRzwaiJuyIpDJ5oIzgzTZ8vtOJ4Ix1tmy"></script>
+    <script src="/webar/stayhome/script.js"></script>
+  </body>
+</html>
